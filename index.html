@@ -6,39 +6,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Selectors</title>
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    
-    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    
-    <h1><i class="fa-solid fa-file-code"></i> CSS Selectors</h1>
-    
-    <p>A CSS selector selects the HTML element(s) you want to style.</p>
-    
-    <div class="selectors">
-        <h2>CSS Selectors</h2>
-        <p>CSS selectors are used to "find" (or select) the HTML elements you want to style.</p>
-        <p>We can divide CSS selectors into five categories:</p>
-        <ul>
-            <li>Simple selectors (select elements based on name, id, class)</li>
-            
-            <li><a href="https://www.w3schools.com/css/css_combinators.asp" target="_blank">Combinator selectors</a> (select elements based on a specific relationship between them)</li>
-            
-            <li><a href="https://www.w3schools.com/css/css_pseudo_classes.asp" target="_blank">Pseudo-class selectors</a> (select elements based on a certain state)</li>
-            
-            <li><a href="https://www.w3schools.com/css/css_pseudo_elements.asp" target="_blank">Pseudo-elements selectors</a> (select and style a part of an element)</li>
-            
-            <li><a href="https://www.w3schools.com/css/css_attribute_selectors.asp" target="_blank">Attribute selectors</a> (select elements based on an attribute or attribute value)</li>
-        </ul>
-    </div>
-    <hr>
-    
-    <h2 class="selector">The CSS <span>element</span> Selector</h2>
-    <p>The element selector selects HTML elements based on the element
+<h3>All CSS Simple Selectors</h3>
+
+    <table class="tabla-final">
+        <tr>
+            <th>selector</th>
+            <th>ejemplo</th>
+            <th>que hace</th>
+        </tr>
+        <tr>
+            <td># id</td>
+            <td>#nombre</td>
+            <td>Selecciona el elemento con ese ID único</td>
+        </tr>
+        <tr>
+            <td>. class</td>
+            <td>.rojo</td>
+            <td>selecciona todos los que tengan esa clase</td>
+        </tr>
+        <tr>
+            <td>element</td>
+            <td>p</td>
+            <td>selecciona todas las etiquetas p</td>
+        </tr>
+        <tr>
+            <td>*</td>
+            <td>*</td>
+            <td>selecciona todo</td>
+        </tr>
+        <tr>
+            <td>element, element</td>
+            <td>div, p</td>
+            <td>selecciona los div y tambien los p</td>
+        </tr>
+    </table>
+</body>
+
+</html>
