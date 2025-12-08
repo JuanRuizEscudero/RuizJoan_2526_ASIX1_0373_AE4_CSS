@@ -1,0 +1,9 @@
+/* "*" para cambiar el tipo de fuente del documento */
+* {
+    font-family: 'Roboto', sans-serif;
+}
+/* "body" para ajustar los márgenes y el relleno del cuerpo del documento siguiendo indicaciones del paso 2 */
+body {
+    margin: 0;
+    padding: 0 20%;
+}
