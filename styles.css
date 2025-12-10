@@ -81,3 +81,34 @@ img {
     border: solid darkcyan 1px;
     border-radius: 5px;
 }
+
+.tabla-final {
+    width: 100%;
+    border-collapse: collapse; /* quita los espacios dobles */
+    margin-top: 10px;
+    margin-bottom: 50px;
+    border: 1px solid #ddd; /* borde gris suave */
+}
+
+.tabla-final th {
+    background-color: darkcyan; /* usamos el color del tema */
+    color: white;
+    padding: 12px;
+    text-align: left; /* titulos alineados a la izquierda queda mas pro */
+}
+
+.tabla-final td {
+    padding: 10px;
+    border: 1px solid #ddd; /* bordes finos grises */
+    text-align: left;
+}
+
+/* Esto hace el efecto "cebra" */
+.tabla-final tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* un pequeño efecto al pasar el raton para molar mas */
+.tabla-final tr:hover {
+    background-color: #ddd;
+}
